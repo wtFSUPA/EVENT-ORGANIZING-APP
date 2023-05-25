@@ -1,0 +1,348 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: #555;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: lightblue;
+}
+
+.mid {
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  margin: 4px auto;
+}
+
+.companyname {
+  justify-content: center;
+  /* align-items: */
+  left: 5%;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  display: flex;
+}
+
+.navbar {
+  left: 80%;
+  width: 38%;
+  height: 10%;
+  margin: 4px auto;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  display: flex;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif;
+  background-color: orange;
+}
+
+.navbar ul li a {
+  font-family: "Exo 2", sans-serif;
+  display: block;
+  color: rgb(113, 34, 34);
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.textom {
+  font-family: "Titillium Web", sans-serif;
+  justify-content: center;
+  text-align: center;
+  padding: 3%;
+  font-size: 28px;
+  color: black;
+}
+
+th{
+  font-size: 30px;
+}
+
+.tableheading{
+  color: #263D42;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 25px;
+  border: 1px solid rgb(149, 69, 19);
+  font-family: "Trirong", serif;
+  font-size: 20px;
+}
+
+.table {
+  left: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#eventtable {
+  align-items: center;
+  width: 100%;
+  text-align: center; 
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* #eventtable .table {
+  width: 80%;
+} */
+/* 
+.form {
+  margin: 2px;
+  padding: 75px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  padding: 200px;
+} */
+
+
+
+/* aom */
+/* DISPLAY PAGE */
+#display {
+  margin-top: 200px;
+}
+
+.display-content {
+  margin: 40px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.image h2 {
+  font-family: "Exo 2", sans-serif;
+  color: black;
+  text-align: center;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.image img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+.image2 img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  text-align: center;
+  padding: 40px;
+}
+
+.image2 h2 {
+  font-family: "Exo 2", sans-serif;
+  color: black;
+  text-align: center;
+  margin-left: 2px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.image p {
+  padding-left: 35px;
+  padding-top: 0px;
+  padding-right: 20px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-family: "Zen Antique", serif;
+}
+.image2 p {
+  padding-left: 35px;
+  padding-top: 0px;
+  padding-right: 20px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-family: "Zen Antique", serif;
+}
+.d-title {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Noto Serif Display", serif;
+   color: black;
+}
+
+/* om*/
+#contact {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#contact .c-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#contact .c-content .part1 {
+  width: auto;
+  height: 100%;
+}
+
+.c-content .part1 .address,
+.phone,
+.email {
+  margin: 14px;
+  text-align: center;
+}
+
+#contact .c-content .part2 {
+  width: auto;
+  margin-left: 50px;
+}
+
+#contact .c-content .part3 {
+  width: auto;
+  margin-left: 50px;
+}
+svg {
+  width: 2rem;
+  margin: 0 1.5rem;
+}
+
+.c-content .part1 .address svg,
+.phone svg,
+.email svg {
+  color: #05386b;
+}
+.c-content .part1 .address .titl,
+.phone .titl,
+.email .titl {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  font-family: "Noto Serif Display", serif;
+}
+.c-content .part1 .address .add,
+.phone .add,
+.email .add {
+  font-size: 18px;
+  color: black;
+  font-family: "Zen Antique", serif;
+}
+
+.c-content .part2 .contact-us {
+  font-size: 50px;
+  color: white;
+  font-family: "Noto Serif Display", serif;
+  font-weight: bold;
+}
+.c-content .part2 p {
+  font-size: 25px;
+  color: black;
+  font-family: "Zen Antique", serif;
+}
+
+.part2 .form-text {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.part2 .form-text input,
+textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background-color: #f0f1f8;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+.part2 button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.part3 img {
+  border-radius: auto;
+}
+
+.part3 h2 {
+  font-size: 42px;
+  color: black;
+  font-family: "Noto Serif Display", serif;
+  font-weight: bold;
+}
+
+.part2 .form-text label {
+  font-family: "Zen Antique", serif;
+  font-size: 19px;
+}
+
+.part2 .form-text #cars {
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+.socials {
+display: inline;
+align-items: center;
+justify-content: center;
+margin:21px;
+border-radius:12px;
+
+}
+
+#finalbutton {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+}
+.finalbutton{
+  margin: 22px;
+}
